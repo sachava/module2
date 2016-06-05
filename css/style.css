@@ -1,0 +1,90 @@
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  margin: 25px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p, h2 {
+  font-family: sans-serif;
+}
+
+p {
+/ width: 90%;
+/*  height: 150px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  font-family: Helvetica;
+  clear:both;
+  font-size: 1.25em;
+}
+
+h2 {
+  text-align: center;
+  width: 38%;
+  background-color: #FF2233;
+  border: 1px solid black;
+  /* float: right; */
+  position: absolute; 
+  top:0;
+  right:0;
+  font-size: 1.75em; 
+  margin-top: 0;
+}
+
+#he1{
+  background-color: green;
+}
+
+#he2 {
+  color: white;
+}
+
+#he3 {
+  background-color: yellow;
+}
+
+.cols {
+      border: 1px solid black;
+      background-color: grey;
+      margin: 1.5%;
+      padding: 10px;
+      position: relative;
+}
+
+/* Responsive */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .cols {
+    width: 30.33%;
+    float: left;
+    margin: 1.5%;
+ } 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #d1, #d2 {
+    width: 47%;
+    margin: 1.5%;
+    float: left;
+  }
+  #d3 {
+    margin: 1.5%;
+    width: 97%;
+    clear:left;
+  }
+
+}
